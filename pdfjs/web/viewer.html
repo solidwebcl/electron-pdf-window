@@ -517,12 +517,9 @@ body {
       </div></div></div></div></div>
 
       <script>
-    const electron = require("electron");
-    const remote = electron.remote;
-    
 
     document.getElementById("close_window").addEventListener("click", event => {
-      remote.getCurrentWindow().close()
+      window.close()
     });
   </script>
   </body>
